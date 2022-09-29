@@ -12,23 +12,8 @@ keywords = []
 authors = [
   { name = "Angus Hollands", email = "goosey15@gmail.com" },
 ]
-classifiers = [
-  "Development Status :: 4 - Beta",
-  "Programming Language :: Python",
-  "Programming Language :: Python :: 3.7",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: Implementation :: CPython",
-  "Programming Language :: Python :: Implementation :: PyPy",
-]
 dependencies = []
 version = "0.0.0"
 
-[project.urls]
-Documentation = "https://github.com/unknown/demo#readme"
-Issues = "https://github.com/unknown/demo/issues"
-Source = "https://github.com/unknown/demo"
 
 [tool.hatch.build.targets.wheel.hooks.custom]
